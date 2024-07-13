@@ -1,0 +1,156 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.Header{
+ 
+  color: #0d1d2c;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Container{
+  background-color: white;
+  color: #0d1d2c;
+  display: flex;
+  flex-direction: column;
+  margin: 0 10px;
+  align-items: center;
+  height: 100vh;
+  width: 98%;
+  padding-top: 30px ;
+}
+
+.HomeContainer{
+  
+  color: #0d1d2c;
+  display: flex;
+  flex-direction: column;
+  margin: 30px 0 10px;
+  align-items: center;
+
+}
+
+.overview{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  font-size: 16px;
+  width: 100%;
+}
+
+.transaction{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 22px;
+  font-size: 18px;
+  width: 100%;
+  gap: 10px;
+  font-weight: bold;
+  & input {
+    outline: none;
+    padding: 10px 12px;
+    background-color: rgba(207, 207, 207, 0.514);
+border-radius: 12px;
+border: 1px solid rgba(207, 207, 207, 0.514);
+  }
+}
+
+.balance{
+  font-size: 18px;
+  width: 100%;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.addtrans{
+  background: black;
+  color: white;
+  padding:5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  text-align: center;
+ 
+}
+
+.addtranscontainer{
+  display: flex;
+  flex-direction: column;
+  border:1px solid rgba(207, 207, 207, 0.514);
+  gap:10px;
+  padding: 15px 20px;
+  margin:10px 20px;
+  width: 100%;
+  & input {
+    outline: none;
+    padding: 10px 12px;
+border-radius: 4px;
+border: 1px solid rgba(207, 207, 207, 0.514);
+  }
+}
+
+.radiobox{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content:space-evenly;
+  & input {
+    width: unset;
+    margin: 0 10px;
+  }
+}
+
+.expensecontain{
+  display: flex;
+  flex-direction: row;
+  gap:12px;
+  margin:20px;
+}
+
+.expensebox{
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  border: 1px solid rgba(207, 207, 207, 0.514);
+  padding: 15px 20px;
+  width: 129px;
+  font-size: 14px;
+  &span{
+    font-weight: bold;
+    font-size: 20px;
+  }
+}
+
+.cell{
+  background-color: white;
+  color: #0d1d2c;
+  display: flex;
+  flex-direction: row;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 2px;
+  border: 1px solid #e6e8e9;
+  align-items: center;
+  font-weight: normal;
+  justify-content: space-between;
+}
+
+.expense {
+  color: red; 
+}
+
+.income {
+  color: green; 
+}
